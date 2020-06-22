@@ -1,0 +1,91 @@
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgb(116, 243, 91) !important;
+}
+.logo {
+    width: 150px;
+    height: 65px;
+}
+
+.fa-cart-arrow-down, .fa-user-circle-o {
+    font-size: 32px !important;
+    margin: 8px;
+}
+
+.card {
+    background-color: rgb(204, 204, 204);
+    width: 180px !important;
+    height: 320px !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-color: black;
+}
+
+.card-img-top {
+    width: 185px;
+    justify-self: center !important;
+}
+
+.btn-primary {
+    background-color: rgb(89, 243, 59) !important;
+    border-color: black !important;
+    color: black;
+    font-weight: bold;
+}
+
+.card-title, .card-text {
+    font-weight: bold;
+    margin: 4px;
+}
+
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+    margin: 4px !important;
+}
+
+.mobiles {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.footer-copyright {
+    background-color: rgb(46, 204, 14);
+}
+
+.page-footer {
+    background-color: black !important;
+}
+
+.mainfooter {
+    color: white !important;
+}
+
+.social {
+    color: black;
+}
+
+.get {
+    font-weight: bold;
+}
+
+.about {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.main{
+    margin: 15px;
+    margin-top: 40px !important;
+}
+
+.fa-facebook-f {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
