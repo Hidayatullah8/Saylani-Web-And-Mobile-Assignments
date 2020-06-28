@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <div class="calculator">
+        <div>
+            <input id="result" class="enput" type="text" placeholder="0">
+        </div>
+        <div>
+            <button class="btn symbol" onclick="clearResult()">C</button>
+            <button class="btn symbol" onclick="getNumber('/')">/</button>
+            <button class="btn symbol" onclick="getNumber('*')">*</button>
+            <button class="btn symbol" onclick="getNumber('x')">x</button>
+        </div>
+        <div>
+            <button class="btn number" onclick="getNumber('7')">7</button>
+            <button class="btn number" onclick="getNumber('8')" >8</button>
+            <button class="btn number" onclick="getNumber('9')">9</button>
+            <button class="btn symbol" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn number" onclick="getNumber('4')">4</button>
+            <button class="btn number" onclick="getNumber('5')">5</button>
+            <button class="btn number" onclick="getNumber('6')">6</button>
+            <button class="btn symbol" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn number" onclick="getNumber('1')">1</button>
+            <button class="btn number" onclick="getNumber('2')">2</button>
+            <button class="btn number" onclick="getNumber('3')">3</button>
+            <button class="btn symbol" onclick="getNumber('.')">.</button>
+        </div>
+        <div>
+            <button class="btn number" onclick="getNumber('00')">00</button>
+            <button class="btn number" onclick="getNumber('0')">0</button>
+            <button class="btn isequal" onclick="getResult('=')">=</button>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
